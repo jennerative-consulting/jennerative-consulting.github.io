@@ -1,0 +1,76 @@
+/* Jennerative Consulting Custom Skin */
+
+// Brand Colors
+$background-color: #f8f9fc;
+$text-color: #1b3d6e;
+$muted-text-color: #0083ad;
+$primary-color: #004aad;
+$border-color: #e8eef4;
+$footer-background-color: #1b3d6e;
+$link-color: #0083ad;
+$masthead-link-color: #ffffff;
+$masthead-link-color-hover: #5de0e6;
+$navicon-link-color-hover: #5de0e6;
+
+// Accent
+$accent-color: #f0a500;
+
+// Buttons
+$btn-background-color: #f0a500;
+$btn-border-color: #f0a500;
+
+// Code blocks
+$code-background-color: #e8eef4;
+
+// Masthead (header/nav)
+.masthead {
+  background-color: #1b3d6e;
+  border-bottom: 2px solid #f0a500;
+}
+
+// Hero banner
+.page__hero--overlay {
+  background-color: #004aad !important;
+}
+
+// Buttons
+.btn--primary {
+  background-color: #f0a500 !important;
+  border-color: #f0a500 !important;
+  color: #1b3d6e !important;
+  font-weight: 700 !important;
+}
+
+.btn--primary:hover {
+  background-color: #d4920a !important;
+  border-color: #d4920a !important;
+}
+
+// Footer
+.page__footer {
+  background-color: #1b3d6e !important;
+  color: #e8eef4 !important;
+}
+
+// Author sidebar
+.author__name {
+  color: #1b3d6e !important;
+}
+
+.author__bio {
+  color: #0083ad !important;
+}
+
+// Links
+a {
+  color: #0083ad;
+  &:hover {
+    color: #004aad;
+  }
+}
+
+// Gold accent divider
+.page__hero--overlay .page__lead {
+  border-left: 4px solid #f0a500;
+  padding-left: 12px;
+}
