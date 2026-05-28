@@ -1,0 +1,72 @@
+# Site Settings
+title: "Jennerative Consulting LLC"
+name: "Jennifer Quack"
+description: "Turning data into decisions."
+url: "https://jennerative.com"
+baseurl: ""
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Author
+author:
+  name: "Jennifer Quack"
+  bio: "Principal Consultant — Data Management Consulting"
+  location: "Lansing, Michigan"
+  email: "jennifer.quack@jennerative.com"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jennerative.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/jenniferquack"
+
+# Navigation
+navbar-links:
+  Services: "services"
+  About: "about"
+  Contact: "contact"
+
+# Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/jenniferquack"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jennerative-consulting"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+
+# Reading Files
+include:
+  - _pages
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
