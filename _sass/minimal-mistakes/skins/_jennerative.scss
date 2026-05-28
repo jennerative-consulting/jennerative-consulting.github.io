@@ -24,8 +24,42 @@ $code-background-color: #e8eef4;
 
 // Masthead (header/nav)
 .masthead {
-  background-color: #1b3d6e;
-  border-bottom: 2px solid #f0a500;
+  background-color: #1b3d6e !important;
+  border-bottom: 2px solid #f0a500 !important;
+}
+
+.masthead__inner-wrap {
+  background-color: #1b3d6e !important;
+}
+
+.site-title {
+  color: #5de0e6 !important;
+  &:hover {
+    color: #ffffff !important;
+  }
+}
+
+.greedy-nav {
+  background-color: #1b3d6e !important;
+  
+  a {
+    color: #ffffff !important;
+    &:hover {
+      color: #5de0e6 !important;
+    }
+  }
+
+  .visible-links a {
+    color: #ffffff !important;
+    &:hover {
+      color: #5de0e6 !important;
+    }
+  }
+
+  button {
+    background-color: #1b3d6e !important;
+    color: #ffffff !important;
+  }
 }
 
 // Hero banner
