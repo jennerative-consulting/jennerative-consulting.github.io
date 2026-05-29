@@ -1,5 +1,6 @@
 # Site Settings
 title: "Jennerative Consulting LLC"
+logo: "/assets/images/jennerative-logo-horizontal-transparent.png"
 name: "Jennifer Quack"
 description: "Turning data into decisions."
 url: "https://jennerative.com"
@@ -29,12 +30,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/jenniferquack"
-
-# Navigation
-navbar-links:
-  Services: "services"
-  About: "about"
-  Contact: "contact"
 
 # Footer
 footer:
