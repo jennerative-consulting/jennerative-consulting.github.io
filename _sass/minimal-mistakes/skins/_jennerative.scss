@@ -108,3 +108,13 @@ a {
   border-left: 4px solid #f0a500;
   padding-left: 12px;
 }
+
+// Site title in masthead
+.masthead .site-title,
+.masthead .site-title:visited,
+.masthead .site-title:link,
+a.site-title,
+a.site-title:visited {
+  color: #5de0e6 !important;
+  text-decoration: none !important;
+}
